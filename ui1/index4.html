@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AMERICANA</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>      <div class="row">
+	        <div class="col-md-12">
+				<div class="text-left">
+				<a class="back" href="index.html">Back</a>
+				</div>
+				<div class="text-center">
+			<a href="index.html">
+				<img src="images/log.png" alt="logo" height="80">
+			</a>
+				</div>
+			</div>
+			</div>
+			<div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <h2>Private Parties / Group Reservations</h2>
+					<h2 class="sub-heading my-5 pl">Please fill out the form below and we'll do our best to accommodate your desired date and <br>
+						 any requests you may have to make your party/celebration memorable.</h2>
+				</div>
+			</div>
+			<div class="row mt-3" >
+				<div class="col-md-6 col-lg-6 order-1 order-md-2 offset-md-3">
+					<form>
+                         <input placeholder="Name..." type="text" name="first_name" id="first_name" class="reservation-text-input errors">
+                         <input placeholder="phone..." type="text" name="phone" id="phone" class="reservation-text-input">
+                         <input placeholder="Email..." type="email" name="Email" id="Email" class="reservation-text-input">
+						 <div class="row">
+						 <div class="col-lg-4 col-sm-12">
+						 <select class="reservation-text-input">
+							<option selected disabled>People</option>
+							<option value="1">10 People</option>
+							<option value="2">12 People</option>
+							<option value="2">13 People</option>
+							<option value="2">14 People</option>
+							<option value="2">15 People</option>
+							<option value="2">16 People</option>
+							<option value="2">17 People</option>
+							<option value="2">18 People</option>
+							<option value="2">19 People</option>
+							<option value="2">20 People</option>
+							<option value="2">21 People</option>
+							<option value="2">22 People</option>
+							<option value="2">Others</option>
+						</select><br>
+						</div>
+						<div class="col-lg-4 col-sm-12">
+						<input type="date" class="reservation-text-input">
+						</div>
+						<div class="col-lg-4 col-sm-12">
+						<input type="time" value="time" class="reservation-text-input">
+						 </div>
+						 </div>
+						 
+                <select class="reservation-text-input">
+                    <option selected disabled>Select Occasion</option>
+                    <option value="1">Anniversary</option>
+                    <option value="2">Baby Shower</option>
+                    <option value="3">Bachelor Party</option>
+                    <option value="4">Birthday</option>
+                    <option value="5">Family Reunion</option>
+                    <option value="6">Graduation</option>
+                    <option value="7">Holiday</option>
+                    <option value="8">Business</option>
+                    <option value="9">Others</option>
+                </select><br>
+				<select class="reservation-text-input">
+                    <option selected disabled>Space Preference</option>
+                    <option value="1">Inside</option>
+                    <option value="2">Outside</option>
+                </select><br>
+
+						 <textarea id="instructions" placeholder="Description / Requests (optional)..."></textarea>
+						 <button type="submit" class="btn confirm-reservation-btn my-3">Submit</button>
+					</form>
+				</div>
+			</div>
+
+
+    <script src="js/JQ.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
